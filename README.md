@@ -51,4 +51,4 @@ I help organizations make faster, better decisions by translating raw data into 
 <a href="#"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
-<p align="center"><sub>Open to data analyst, BI, and analytics engineering opportunities — always happy to discuss a challenging data problem.</sub></p>
+<p align="center"><sub>Open to data analyst, BI, and analytics engineering opportunities. Always happy to discuss a challenging data problem.</sub></p>
