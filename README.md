@@ -39,7 +39,7 @@ I help organizations make faster, better decisions by translating raw data into 
 
 - Deepening expertise in causal inference and experimentation design
 - Building end-to-end analytics pipelines (SQL → Python → BI dashboard)
-- Applying storytelling frameworks to executive-level reporting
+- Applying storytelling frameworks to executive level reporting
 
 ---
 
