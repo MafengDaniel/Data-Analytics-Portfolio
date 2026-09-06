@@ -3,7 +3,7 @@
 <h3 align="center">Data Analyst | Turning Complex Data into Clear Business Decisions</h3>
 
 <p align="center">
-I help organizations make faster, better decisions by translating raw data into precise, actionable insight. My focus is impact, not complexity — every analysis is built to answer a business question, not just demonstrate a technique.
+I help organizations make faster, better decisions by translating raw data into precise, actionable insight. My focus is impact, not complexity. Every analysis is built to answer questions, not just demonstrate a technique.
 </p>
 
 <p align="center">
