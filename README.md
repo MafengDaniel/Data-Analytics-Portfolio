@@ -7,7 +7,7 @@ I help organizations make faster, better decisions by translating raw data into 
 </p>
 
 <p align="center">
-📍 [City, Country] &nbsp;|&nbsp; 💼 Open to [Data Analyst / Data Scientist] roles &nbsp;|&nbsp; 📫 [your.email@example.com]
+ [Jos, Nigeria] &nbsp;|&nbsp; 💼 Open to [Data Analyst / Data Scientist] roles &nbsp;|&nbsp; 📫 [your.email@example.com]
 </p>
 
 ---
