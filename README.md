@@ -1,5 +1,5 @@
 
-#<h1 align="center">Hi, I'm Mafeng Daniel 👋</h1>
+<h1 align="center">Hi, I'm Mafeng Daniel 👋</h1>
 <h3 align="center">Data Analyst | Turning Complex Data into Clear Business Decisions</h3>
 
 <p align="center">
