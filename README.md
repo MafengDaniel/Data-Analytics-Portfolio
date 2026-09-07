@@ -30,7 +30,7 @@ I bridge fragmented enterprise data and executive decision making by architectin
 
 | Project | Domain | Primary Tools | Business Metric | Deliverable |
 |---------|--------|---------------|-----------------|-------------|
-| **Oregon Store Sales & Inventory Forecast (Excel)** | Retail Operations / Supply Chain | Excel (Power Query, Dynamic Arrays, VBA) | Improved 12-week forecast accuracy by 18 percentage points; reduced stockout risk and freed ~$350k working capital | `03_Oregon_Inventory_Forecast.xlsx` |
+| **Oregon Store Sales & Inventory Forecast (Excel)** | Retail Operations / Supply Chain | Excel (Power Query, Dynamic Arrays, VBA) | Improved 12-week forecast accuracy by 18 percentage points; reduced stockout risk and freed ~$350k working capital | `https://github.com/MafengDaniel/Data-Analytics-Portfolio/blob/main/Excel_Projects/oregon_real_estate_2026_ultimate.xlsx` |
 
 ---
 
