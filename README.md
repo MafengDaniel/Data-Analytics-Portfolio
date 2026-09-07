@@ -42,8 +42,4 @@ I bridge fragmented enterprise data and executive decision-making by architectin
 - **GitHub:** [github.com/MafengDaniel](https://github.com/MafengDaniel)
 - **Location:** Jos, Nigeria | Open to Remote & Hybrid
 
----
 
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
