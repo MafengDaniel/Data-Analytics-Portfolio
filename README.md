@@ -16,28 +16,24 @@
 
 ## Executive Value Proposition
 
-I bridge fragmented enterprise data and executive decision-making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into measurable business impact margin expansion, revenue acceleration, and operational transparency.
+I bridge fragmented enterprise data and executive decision-making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into concise, action-oriented insight for revenue, margin, and working-capital optimization.
 
 **Core Competencies:**
 - **Data Modeling:** Star Schema design, dimension conformance, slowly-changing dimensions (SCD Type 2)
-- **Advanced DAX:** Time-over-time analysis, RFM scoring, cohort retention, rolling aggregates, YTD/YoY calculations
-- **Power Query ETL:** M language transformations, dynamic data refresh, error handling, incremental loads
-- **Financial Modeling:** 3-statement integration, scenario trees, sensitivity analysis, cash flow forecasting
-- **Executive Dashboarding:** KPI governance, drill-through design, interactive filtering, mobile-responsive layout
-- **Stakeholder Communication:** Business metric definitions, data literacy, governance frameworks
+- **Advanced DAX & Excel:** Time-over-time analysis, dynamic arrays, scenario trees, rolling aggregates, YTD/YoY calculations
+- **Power Query & VBA:** M language transformations, dynamic refresh, automation and error handling
+- **Financial Modeling:** 3-statement integration, scenario analysis, cash flow forecasting
+- **Executive Dashboarding:** KPI governance, drill-throughs, interactive filtering
 
 ---
 
-## Portfolio Matrix: Flagship Projects
+## Portfolio Matrix: Flagship Project
 
 | Project | Domain | Primary Tools | Business Metric | Deliverable |
 |---------|--------|---------------|-----------------|-------------|
-| **Commercial Sales & Margin Diagnostic** | Enterprise Sales Operations | Power BI, DAX, Star Schema | $12.8M commission cost exposure; 340 bps margin uplift opportunity | [`01_sales_margin_diagnostic/`](01_sales_margin_diagnostic/) |
-| **Corporate Financial Scenario & Runway Model** | Financial Planning & Analysis | Excel, Dynamic Arrays, VBA | 24-month liquidity forecast; 18 scenario paths; $2.3M burn-rate sensitivity | [`02_financial_scenario_model/`](02_financial_scenario_model/) |
-| **Customer Retention & Cohort Churn Engine** | Customer Analytics & Lifetime Value | Power BI, Power Query M, DAX Cohorts | 72% Platinum member retention vs. 12% non-loyalty; 4x ADR multiplier | [`03_retention_cohort_analytics/`](03_retention_cohort_analytics/) |
+| **Oregon Store Sales & Inventory Forecast (Excel)** | Retail Operations / Supply Chain | Excel (Power Query, Dynamic Arrays, VBA) | Improved 12-week forecast accuracy by 18 percentage points; reduced stockout risk and freed ~$350k working capital | `03_Oregon_Inventory_Forecast.xlsx` |
 
 ---
-
 
 ## Contact & Connect
 
