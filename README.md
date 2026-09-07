@@ -16,7 +16,7 @@
 
 ## Executive Value Proposition
 
-I bridge fragmented enterprise data and executive decision-making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into measurable business impact—margin expansion, revenue acceleration, and operational transparency.
+I bridge fragmented enterprise data and executive decision-making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into measurable business impact margin expansion, revenue acceleration, and operational transparency.
 
 **Core Competencies:**
 - **Data Modeling:** Star Schema design, dimension conformance, slowly-changing dimensions (SCD Type 2)
