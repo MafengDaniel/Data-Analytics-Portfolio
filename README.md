@@ -16,12 +16,11 @@
 
 ## Executive Value Proposition
 
-I bridge fragmented enterprise data and executive decision-making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into concise, action-oriented insight for revenue, margin, and working-capital optimization.
+I bridge fragmented enterprise data and executive decision making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into concise, action oriented insight for revenue, margin, and working-capital optimization.
 
 **Core Competencies:**
-- **Data Modeling:** Star Schema design, dimension conformance, slowly-changing dimensions (SCD Type 2)
-- **Advanced DAX & Excel:** Time-over-time analysis, dynamic arrays, scenario trees, rolling aggregates, YTD/YoY calculations
-- **Power Query & VBA:** M language transformations, dynamic refresh, automation and error handling
+- **Data Modeling:** Star Schema design, dimension conformance, slowly changing dimensions 
+- **Advanced DAX & Excel:** Time-over-time analysis, dynamic arrays, scenario trees, rolling aggregates
 - **Financial Modeling:** 3-statement integration, scenario analysis, cash flow forecasting
 - **Executive Dashboarding:** KPI governance, drill-throughs, interactive filtering
 
