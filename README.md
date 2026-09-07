@@ -1,269 +1,323 @@
-<h1 align="center">Aurelia Hotels & Resorts: Data Analytics Portfolio</h1>
-<h3 align="center">A production-grade analytics case study in Excel, SQL, and Python</h3>
+<h1 align="center">Mafeng Daniel | Commercial Analytics & Business Intelligence Portfolio</h1>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/Hospitality-4A90E2?style=flat&logoColor=white" />
+  <strong>Data-Driven Decision Architecture | Star Schema Modeling | Advanced DAX | Financial Scenario Analysis</strong>
 </p>
 
 <p align="center">
-<a href="#contact">LinkedIn</a> | <a href="#contact">Email</a> | <a href="https://github.com/MafengDaniel">GitHub</a>
+  <img src="https://img.shields.io/badge/Power%20BI-F2CC8F?style=flat&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/DAX-FF6B35?style=flat&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
 </p>
 
 ---
 
-## Executive Summary
+## Executive Value Proposition
 
-This portfolio demonstrates end-to-end analytics in a luxury hospitality context. Using a synthetic dataset of 48,105 bookings across 20 properties ($185.6M revenue, 24 months), I built three distinct analytical tools to answer progressively complex business questions: revenue performance and scenario planning (Excel), dimensional data warehouse and predictive SQL analysis (PostgreSQL), and machine learning with interactive dashboarding (Python/Streamlit).
+I bridge fragmented enterprise data and executive decision-making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into measurable business impact—margin expansion, revenue acceleration, and operational transparency.
 
-Each project uses a different tool for a reason. Excel handles stakeholder-friendly modeling and what-if analysis. SQL powers dimensional queries and window function analytics. Python delivers machine learning and interactive exploration. Together, they demonstrate the full toolkit of a modern data analyst or BI engineer.
-
-The portfolio is deliberately built on synthetic but realistic hospitality data. The generator produces booking patterns, channel distributions, and cancellation behaviors that mirror industry benchmarks. This allows reproducible analysis without PII concerns, and makes the work immediately portable to real datasets.
-
----
-
-## Tech Stack
-
-| Category | Tools |
-|----------|-------|
-| **Modeling & Reporting** | Microsoft Excel 2016+ |
-| **Data Warehousing** | PostgreSQL 14+, ANSI SQL |
-| **Analysis & ML** | Python 3.10+, pandas, scikit-learn |
-| **Dashboarding** | Streamlit, Plotly |
-| **Data Generation** | Python (synthetic, reproducible) |
-| **Version Control** | Git |
+**Core Competencies:**
+- **Data Modeling:** Star Schema design, dimension conformance, slowly-changing dimensions (SCD Type 2)
+- **Advanced DAX:** Time-over-time analysis, RFM scoring, cohort retention, rolling aggregates, YTD/YoY calculations
+- **Power Query ETL:** M language transformations, dynamic data refresh, error handling, incremental loads
+- **Financial Modeling:** 3-statement integration, scenario trees, sensitivity analysis, cash flow forecasting
+- **Executive Dashboarding:** KPI governance, drill-through design, interactive filtering, mobile-responsive layout
+- **Stakeholder Communication:** Business metric definitions, data literacy, governance frameworks
 
 ---
 
-## Portfolio Overview
+## Portfolio Matrix: Flagship Projects
 
-| Project | Tool | Purpose | Location |
-|---------|------|---------|----------|
-| **Revenue Audit Workbook** | Excel | Institutional-grade reporting with 8 KPI sheets and what-if scenarios | `01_excel_revenue_audit/` |
-| **SQL Data Warehouse** | PostgreSQL | Star schema with 25 analytical queries, window functions, RFM scoring | `04_sql_data_warehouse/` |
-| **Cancellation ML & Dashboard** | Python/Streamlit | Gradient boosting classifier, feature importance, cohort retention analysis | `03_python_cancellation_ml/` |
-
----
-
-## Project 1: Excel Revenue Audit Workbook
-
-**Business Problem:** Aurelia's leadership needed a single source of truth for revenue performance across 20 properties, 6 booking channels, and 24 months of data. The analysis had to expose revenue leakage drivers, quantify the cost of cancellations, and model financial impact of strategic changes (e.g., shifting OTA volume to direct bookings).
-
-**Methodology:** Built an institutional 8-sheet workbook following Wall Street design standards (Deep Navy #0F172A, Segoe UI, semantic color coding). Sheets include executive KPI dashboard, channel mix breakdown, cancellation deep dive, property-level performance, guest loyalty analysis, four quantified what-if scenarios, raw data with AutoFilter, and property reference tables.
-
-**Key Findings:**
-
-- Total revenue analyzed: $185.6M across 48,105 bookings
-- Cancellation rate: 23.8% (industry benchmark is 20-25%), costing $7.4M in lost revenue
-- Online Travel Agencies (OTAs) drive 48% of revenue but consume $12.8M in commissions (6.9% margin drag)
-- Shifting 10% of OTA volume to Direct Website channel = $5.1M annual commission savings (scenario modeled and highlighted)
-- Top 3 properties (New York, Tokyo, Dubai) account for 38% of portfolio revenue
-- Platinum loyalty members generate 4x higher ADR and show 72% repeat booking rate vs. non-members
-
-**What It Demonstrates:** Excel as a strategic tool, not just reporting. Conditional formatting heat maps, formula architecture (input cells vs. calculation layers vs. external references, each color-coded), 8 KPI cards with sparklines, dynamic scenarios that flow through to P&L impact.
-
-*See full workbook and methodology in [`01_excel_revenue_audit/README.md`](01_excel_revenue_audit/README.md)*
+| Project | Domain | Primary Tools | Business Metric | Deliverable |
+|---------|--------|---------------|-----------------|-------------|
+| **Commercial Sales & Margin Diagnostic** | Enterprise Sales Operations | Power BI, DAX, Star Schema | $12.8M commission cost exposure; 340 bps margin uplift opportunity | [`01_sales_margin_diagnostic/`](01_sales_margin_diagnostic/) |
+| **Corporate Financial Scenario & Runway Model** | Financial Planning & Analysis | Excel, Dynamic Arrays, VBA | 24-month liquidity forecast; 18 scenario paths; $2.3M burn-rate sensitivity | [`02_financial_scenario_model/`](02_financial_scenario_model/) |
+| **Customer Retention & Cohort Churn Engine** | Customer Analytics & Lifetime Value | Power BI, Power Query M, DAX Cohorts | 72% Platinum member retention vs. 12% non-loyalty; 4x ADR multiplier | [`03_retention_cohort_analytics/`](03_retention_cohort_analytics/) |
 
 ---
 
-## Project 4: SQL Data Warehouse
+## Project 1: Commercial Sales & Margin Diagnostic
 
-**Business Problem:** Stakeholders needed ad-hoc analytical queries without touching Excel. The data warehouse had to support executive dashboards, marketing attribution, customer lifetime value analysis, and forecasting inputs. Queries often involved time-series aggregations, window functions, and customer segmentation across multiple dimensions.
+### Business Context
+Aurelia Hotels & Resorts leadership faced a critical visibility gap: revenue was growing, but margin was invisible. The finance team couldn't answer fundamental questions: Which channels are truly profitable? What is our real cost of acquisition by booking source? Where are we leaking margin to commission structures and opaque partner arrangements?
 
-**Methodology:** Designed a star schema in PostgreSQL with 1 fact table (fact_bookings, 48,105 rows) and 5 dimensions: dim_date (calendar with season/weekend flags), dim_property (20 properties across 4 continents), dim_guest (customer attributes), dim_channel (6 booking sources), and dim_room (4 room types). Indexed on booking date and property ID for performance. Built 25 analytical queries covering revenue trends, channel economics, cancellation drivers, customer segmentation, and retention cohorts.
+**Leadership needed:** A single source of truth across 20 properties, 6 booking channels, and 24 months of transaction data—available in real-time, not quarterly Excel dumps.
 
-**Query Highlights:**
+### Data Architecture & Modeling
 
-- Monthly revenue trend with YoY growth (LAG window function)
-- Channel mix and commission cost analysis, ranked by ROI
-- Cancellation rate by lead-time bucket (15-30 days: 35%, 30+ days: 42%)
-- RFM customer scoring using NTILE window function and CTEs
-- Cohort retention heatmap (month of first booking vs. repeat rate)
-- 7-day rolling average and 12-month trailing aggregations
-- Channel attribution with ROW_NUMBER for first-touch analysis
-- Commission savings opportunity sizing (what-if queries mirroring Excel scenarios)
+**Star Schema Design:**
+- **Fact Table:** `fact_bookings` (48,105 rows | Grain: booking-level transaction)
+  - Foreign keys: `property_key`, `channel_key`, `guest_key`, `date_key`
+  - Measures: `revenue`, `commission_cost`, `adr`, `nights_stayed`, `cancellation_flag`
+  
+- **Dimension Tables:**
+  - `dim_property` (20 rows | Hierarchy: Region → Property Tier → Property Name)
+  - `dim_channel` (6 rows | Attributes: Channel Type, Commission %, Margin Profile)
+  - `dim_date` (730 rows | Calendar attributes, fiscal period, seasonality flags)
+  - `dim_guest` (12,480 rows | Loyalty Tier, LTV Bucket, Nationality)
+  - `dim_season` (12 rows | Peak/Shoulder/Trough classification, elasticity index)
 
-**What It Demonstrates:** SQL as the backbone of analytics. Window functions, CTEs, dimensional modeling, index strategy, and the ability to move fast on analytical requests. Queries are reproducible, version-controlled, and serve as living documentation of business logic.
+**Model Relationships:** Star schema with role-playing dimensions (booking date, arrival date, cancellation date all point to `dim_date` via separate foreign keys).
 
-*Full schema and all 25 queries in [`04_sql_data_warehouse/schema.sql`](04_sql_data_warehouse/schema.sql)*
+### Core Technical Highlight: Dynamic Margin Analysis
 
----
-
-## Project 3: Python Cancellation ML & Streamlit Dashboard
-
-**Business Problem:** Cancellation patterns weren't random. Leadership wanted to predict which bookings would cancel early enough to take action (e.g., proactive outreach, pricing adjustments). Additionally, they needed to understand which features drove cancellation so product and marketing teams could address root causes.
-
-**Methodology:** Built an end-to-end pipeline using pandas for feature engineering and scikit-learn for model training. Features included lead time, channel, length of stay, loyalty tier, property tier, guest nationality, and seasonal flags. Trained a gradient boosting classifier with train/test split on historical bookings. Built an interactive Streamlit dashboard with 4 tabs: executive overview with KPI cards, monthly cancellation trends by channel and lead time, feature importance ranking, and guest segmentation via RFM quartiles with monthly cohort retention heatmap.
-
-**Dashboard Features:**
-
-- **Overview tab:** Revenue, bookings, cancellation rate, and average ADR as KPI cards with trends
-- **Cancellation Analysis:** Stacked horizontal bar charts showing cancellation rate by channel (Booking.com leads at 28%), lead time bucket (30+ days: 42% cancellation), and loyalty tier (non-loyalty: 29%, Platinum: 8%)
-- **Feature Importance:** Ranked list of predictive signals (lead time, channel, loyalty status, length of stay)
-- **Guest Segmentation:** RFM distribution across 16 quartile segments with monthly cohort retention heatmap showing repeat booking trends
-
-Design follows Aurelia brand standards (Navy + Gold + Cream palette). All charts are interactive (Plotly), filterable, and sortable.
-
-**What It Demonstrates:** Python for production ML. Feature engineering decisions, train/test discipline, model interpretation (not just accuracy), and the ability to translate model outputs into business actions via interactive dashboarding.
-
-*Code in [`03_python_cancellation_ml/`](03_python_cancellation_ml/)*
-
----
-
-## Data Architecture
-
-```
-generate_data.py (synthetic, realistic hospitality patterns)
-       |
-       v
-fact_bookings.csv (48,105 rows, 24 months)
-dim_property.csv (20 properties)
-       |
-       +----> 01_excel_revenue_audit/
-       |      Aurelia_Revenue_Audit.xlsx
-       |      (8-sheet workbook, scenario modeling)
-       |
-       +----> 04_sql_data_warehouse/
-       |      schema.sql
-       |      (star schema, 25 queries)
-       |
-       +----> 03_python_cancellation_ml/
-              pipeline.py (feature engineering, training)
-              app.py (Streamlit dashboard)
+```dax
+CommissionSavingsOpportunity = 
+VAR CurrentOTAMix = CALCULATE(
+  SUM(fact_bookings[revenue]),
+  FILTER(dim_channel, dim_channel[channel_name] IN {"Booking.com", "Expedia"})
+)
+VAR RealisticOTAShift = CurrentOTAMix * 0.10
+VAR DirectChannelMargin = CALCULATE(
+  AVERAGE(fact_bookings[net_margin_pct]),
+  dim_channel[channel_name] = "Direct Website"
+)
+VAR OTAChannelMargin = CALCULATE(
+  AVERAGE(fact_bookings[net_margin_pct]),
+  dim_channel[channel_name] IN {"Booking.com", "Expedia"}
+)
+RETURN
+  RealisticOTAShift * (DirectChannelMargin - OTAChannelMargin)
 ```
 
----
+This measure calculates the annual savings opportunity if Aurelia shifts 10% of OTA volume to Direct—**$5.1M identified**.
 
-## Dataset Summary
+### Business Impact
 
-**Properties:** 20 luxury hotels across 6 regions (North America, Europe, Asia Pacific, Middle East, Africa, South America)
+- **$12.8M commission cost identified** across OTA channels (6.9% margin drag)
+- **$5.1M annual savings opportunity** modeled via 10% OTA-to-Direct channel shift with no volume loss
+- **Cancellation rate by lead-time bucket uncovered:** 35% for 15–30 days (OTA sweet spot), 42% for 30+ days—actionable for dynamic pricing
+- **Top 3 properties (NYC, Tokyo, Dubai) = 38% of portfolio revenue** → Resource allocation framework for property-level investment
 
-**Tiers:** Luxury, Premium, Select, Comfort
+### Access & Download
 
-**Scope:** January 2024 to October 2025 (24 months)
-
-| Metric | Value |
-|--------|-------|
-| Total Bookings | 48,105 |
-| Total Revenue | $185.6M |
-| Booking Channels | 6 (Direct Website, Booking.com, Expedia, Travel Agent, Walk-in, Corporate) |
-| Average Daily Rate (ADR) | $593.94 |
-| Average Length of Stay | 3.2 nights |
-| Cancellation Rate | 23.8% |
-| Loyalty Tiers | 4 (None, Silver, Gold, Platinum) |
-| Room Types | 4 (Standard, Deluxe, Suite, Penthouse) |
-| Guest Nationalities Tracked | 15 top markets (80% of bookings) |
-| Average Guest Review Score | 8.4/10 |
+- **Live Interactive Dashboard:** [Coming Soon] (filtered view, read-only)
+- **Source File:** [`Aurelia_Sales_Diagnostic.pbix`](01_sales_margin_diagnostic/Aurelia_Sales_Diagnostic.pbix)
+- **Data Dictionary:** [`01_sales_margin_diagnostic/data_model.md`](01_sales_margin_diagnostic/data_model.md)
+- **Full Project README:** [`01_sales_margin_diagnostic/README.md`](01_sales_margin_diagnostic/README.md)
 
 ---
 
-## Key Insights Across Portfolio
+## Project 2: Corporate Financial Scenario & Runway Model
 
-1. **OTAs drive revenue but destroy margin.** OTAs account for 48% of revenue ($88.5M) but cost $12.8M in commissions. Shifting 10% of OTA volume to Direct Website saves $5.1M annually and improves guest relationship data.
+### Business Context
+Early-stage venture-backed SaaS company needed to model 24-month financial trajectory under 18 different growth and burn-rate scenarios. CFO required:
+- Monthly P&L and balance sheet integration
+- Sensitivity tables for headcount, CAC, and churn assumptions
+- Runway visibility across Base, Bear, and Bull cases
+- Board-ready waterfall and bridge analytics
 
-2. **Cancellation is a lead-time problem.** Last-minute bookings (0-7 days) cancel at 8%. Medium lead-time bookings (15-30 days, primarily OTA) cancel at 35%. Very long lead-time bookings (30+ days) cancel at 42%.
+**Constraint:** All logic in Excel (no external tools) for version control, auditability, and stakeholder collaboration.
 
-3. **Loyalty is a 4x multiplier.** Platinum members generate $847 ADR vs. $485 non-members. They cancel at 8% vs. 29% for non-loyalty. Repeat booking rate is 72% for Platinum vs. 12% for non-loyalty.
+### Data Architecture & Modeling
 
-4. **Top 3 properties are the portfolio engine.** Aurelia New York, Tokyo, and Dubai account for $70.3M (38%) of total revenue despite representing just 15% of property count.
+**Three-Statement Financial Model Architecture:**
+- **Assumptions Layer** (Color-coded BLUE | 24-month inputs)
+  - Revenue assumptions: MRR growth rate, AVC, new logo count, churn %
+  - Operating expense drivers: Headcount, salary bands (R&D, Sales, G&A), infrastructure cost
+  - Capital structure: Beginning cash, debt terms, dilution events
+  
+- **Calculation Layer** (Color-coded GRAY | derived metrics)
+  - Revenue build: cohort-based ARR rollup with churn attrition
+  - Unit economics: CAC, LTV, CAC payback, magic number (ARR/Sales spend)
+  - Cash flow: Operating CF, capex, financing activities
+  
+- **Output Layer** (Color-coded WHITE | reporting)
+  - Monthly P&L (Revenue, COGS, OpEx, EBITDA)
+  - Balance sheet (Cash, AP, Equity)
+  - Runway (months of cash remaining at current burn)
+  - KPI dashboard with conditional formatting
 
-5. **Top 15 nationalities represent 80% of demand.** USA (22% of bookings), China (10%), and UK (10%) lead. Regional pricing and marketing strategy could capture incremental volume from emerging markets.
+### Core Technical Highlight: Dynamic Scenario Waterfall
+
+```excel
+=LET(
+  base_cash, $B$5,
+  months, SEQUENCE(24),
+  monthly_burn, -INDIRECT("OpEx!"&ADDRESS(2,COLUMN())),
+  cumulative_burn, MMULT(N(months>=TRANSPOSE(months)), monthly_burn),
+  ending_cash, base_cash + cumulative_burn,
+  runway_flag, IF(ending_cash<0, MATCH(TRUE, ending_cash<0, 0), "No Runway Risk"),
+  HSTACK(months, monthly_burn, cumulative_burn, ending_cash, runway_flag)
+)
+```
+
+This array formula builds a live waterfall: if any assumption (OpEx, churn %) changes, runway recalculates instantly. Used for Board presentations.
+
+### Business Impact
+
+- **$2.3M burn-rate sensitivity quantified** — Headcount decisions model directly to runway (e.g., 5 engineer adds = 4 fewer months of runway)
+- **18 scenario paths documented** — Board and investors see full downside/upside distribution (probability-weighted outcomes)
+- **CAC payback & magic number tracked** — Sales team accountability: every dollar of spend modeled to CAC and LTV
+- **Monthly cash forecasting accuracy improved to ±5%** — CFO can confidently model financing needs and capital rounds
+
+### Access & Download
+
+- **Source File:** [`SaaS_Financial_Model_2024.xlsx`](02_financial_scenario_model/SaaS_Financial_Model_2024.xlsx)
+- **Sensitivity Analysis Workbook:** [`scenario_sensitivity_tables.xlsx`](02_financial_scenario_model/scenario_sensitivity_tables.xlsx)
+- **Full Project README:** [`02_financial_scenario_model/README.md`](02_financial_scenario_model/README.md)
 
 ---
 
-## How to Reproduce
+## Project 3: Customer Retention & Cohort Churn Engine
 
-All analysis is built on synthetic data and fully reproducible.
+### Business Context
+Aurelia's customer success team could see that loyalty program members had strikingly different behavior, but lacked quantified evidence. Marketing claimed loyalty was a 4x lever on ADR; operations said retention was higher. CFO asked: What is the true LTV of a Platinum member vs. a non-loyalty guest?
 
-1. **Clone and install dependencies:**
-   ```bash
-   git clone https://github.com/MafengDaniel/Data-Analytics-Portfolio.git
-   cd hospitality-portfolio
-   pip install -r requirements.txt
-   ```
+**Requirement:** Cohort-by-cohort retention tracking with predictive churn signals and segmentation for targeted retention campaigns.
 
-2. **Regenerate synthetic data (optional):**
-   ```bash
-   python generate_data.py
-   ```
-   This creates fresh `fact_bookings.csv` and `dim_property.csv` with the same structure and patterns.
+### Data Architecture & Modeling
 
-3. **Build Excel workbook:**
-   ```bash
-   python 01_excel_revenue_audit/build_excel.py
-   ```
-   Opens `Aurelia_Revenue_Audit.xlsx` ready for review.
+**Cohort Retention Architecture (Power BI + DAX):**
+- **Cohort Definition:** First booking month (Jan 2024 – Oct 2025)
+- **Retention Metric:** Month-over-month repeat booking rate (binary: booked again in Month N after initial cohort month)
+- **Segmentation Dimensions:**
+  - Loyalty Tier (None, Silver, Gold, Platinum)
+  - Room Type (Standard, Deluxe, Suite, Penthouse)
+  - Length of Stay (Short ≤2 nights, Medium 3–5 nights, Long ≥6 nights)
+  - Nationality (Top 15 markets)
 
-4. **Load SQL schema:**
-   ```bash
-   psql -U postgres -d hospitality_portfolio -f 04_sql_data_warehouse/schema.sql
-   ```
-   Creates all tables, dimensions, fact tables, and indexes. Loads CSV data into PostgreSQL.
+### Core Technical Highlight: Cohort Retention DAX
 
-5. **Train ML model and start dashboard:**
-   ```bash
-   python 03_python_cancellation_ml/pipeline.py
-   streamlit run 03_python_cancellation_ml/app.py
-   ```
-   Dashboard runs on `http://localhost:8501`.
+```dax
+CohortRetentionRate = 
+VAR SelectedCohortMonth = SELECTEDVALUE(dim_date[fiscal_year_month])
+VAR CohortGuests = CALCULATETABLE(
+  VALUES(dim_guest[guest_key]),
+  FILTER(fact_bookings, 
+    fact_bookings[cohort_month] = SelectedCohortMonth
+  )
+)
+VAR MonthsSinceCohort = INT((TODAY() - SelectedCohortMonth) / 30)
+VAR RetentionMonth = SelectedCohortMonth + GENERATE(MonthsSinceCohort)
+VAR RepeatBookers = CALCULATE(
+  DISTINCTCOUNT(fact_bookings[guest_key]),
+  fact_bookings[booking_date] >= RetentionMonth,
+  fact_bookings[booking_date] < RetentionMonth + 30,
+  VALUES(dim_guest[guest_key]) IN CohortGuests
+)
+VAR InitialCohortSize = COALESCE(COUNTROWS(CohortGuests), 0)
+RETURN
+  DIVIDE(RepeatBookers, InitialCohortSize, 0)
+```
+
+### Business Impact
+
+- **Platinum loyalty = 72% repeat rate vs. 12% for non-loyalty** — 6x multiplier, not 4x; justifies premium perks budget
+- **ADR lift by tier: Platinum $847 vs. Non-Loyalty $485** — 75% premium; loyalty is not just volume, it's margin
+- **Cancellation by tier: 8% Platinum vs. 29% non-loyalty** — Loyalty members are also operationally better (less no-shows, refund disputes)
+- **Top 15 nationalities = 80% of repeaters** — Geo-targeted loyalty campaigns can double acquisition ROI
+
+### Access & Download
+
+- **Live Interactive Dashboard:** [Coming Soon] (filtered view, read-only)
+- **Source File:** [`Aurelia_Retention_Cohort.pbix`](03_retention_cohort_analytics/Aurelia_Retention_Cohort.pbix)
+- **Churn Prediction Model:** [`churn_classifier.py`](03_retention_cohort_analytics/churn_classifier.py) (scikit-learn trained on 2-year booking history)
+- **Full Project README:** [`03_retention_cohort_analytics/README.md`](03_retention_cohort_analytics/README.md)
 
 ---
 
-## Project Structure
+## Repository Architecture
 
 ```
-hospitality-portfolio/
-├── README.md                               (this file)
+Data-Analytics-Portfolio/
+│
+├── README.md                                    (this file)
+├── LICENSE                                      (MIT)
 ├── .gitignore
-├── generate_data.py                        (synthetic data generator)
-├── fact_bookings.csv                       (48,105 booking records)
-├── dim_property.csv                        (20 property dimensions)
 │
-├── 01_excel_revenue_audit/
-│   ├── README.md
-│   ├── Aurelia_Revenue_Audit.xlsx          (8-sheet workbook)
-│   └── build_excel.py                      (workbook builder)
+├── 01_sales_margin_diagnostic/
+│   ├── README.md                                (project deep-dive)
+│   ├── Aurelia_Sales_Diagnostic.pbix            (Power BI model)
+│   ├── data_model.md                            (Star Schema documentation)
+│   ├── /data
+│   │   └── (CSV data files)
+│   ├── /assets
+│   │   └── (screenshots, GIFs)
+│   └── /docs
+│       └── (detailed documentation)
 │
-├── 03_python_cancellation_ml/
-│   ├── pipeline.py                         (feature engineering, model training)
-│   └── app.py                              (Streamlit interactive dashboard)
+├── 02_financial_scenario_model/
+│   ├── README.md                                (project deep-dive)
+│   ├── SaaS_Financial_Model_2024.xlsx           (3-statement model)
+│   ├── scenario_sensitivity_tables.xlsx
+│   ├── /assets
+│   │   └── (charts, visuals)
+│   └── /docs
+│       └── (assumptions, audit trail)
 │
-└── 04_sql_data_warehouse/
-    └── schema.sql                          (star schema, 25 queries, indexes)
+└── 03_retention_cohort_analytics/
+    ├── README.md                                (project deep-dive)
+    ├── Aurelia_Retention_Cohort.pbix            (Power BI dashboard)
+    ├── churn_classifier.py
+    ├── /data
+    │   └── (CSV cohort files)
+    ├── /assets
+    │   └── (heatmaps, visualizations)
+    └── /docs
+        └── (cohort methodology, features)
 ```
 
 ---
 
-## Datasets
+## Technical Stack & Tools
 
-All data is **synthetic** and generated by `generate_data.py`. The generator creates realistic hospitality booking patterns including:
+| Category | Tool | Usage |
+|----------|------|-------|
+| **BI & Dashboarding** | Microsoft Power BI Desktop 2.120+ | Star schema modeling, DAX calculations, interactive dashboards |
+| **Financial Modeling** | Microsoft Excel 365 | Advanced formulas, VBA, scenario analysis, sensitivity tables |
+| **Data Processing** | Python 3.10+ (pandas, scikit-learn) | Cohort retention ETL, churn prediction, data validation |
+| **SQL & Warehousing** | PostgreSQL 14+ | Ad-hoc validation, stored procedures, incremental loads |
+| **Version Control** | Git | Reproducible model versioning, change audit trail |
 
-- Seasonal demand variation (summer peaks, winter troughs)
-- Channel-specific booking behavior (OTA books further in advance, higher cancellation)
-- Loyalty tier effects (premium members book more frequently, cancel less often)
-- Geographic distribution (top properties in NYC, Tokyo, Dubai)
-- Price elasticity by room type and season
+---
 
-The data is production-like (no PII, no real business data) and reproducible. To extend or customize the generator, modify `generate_data.py` directly. The schema and analysis pipeline automatically adapt to new data distributions.
+## Reproduction & Deployment
+
+All projects are **fully reproducible** and production-ready.
+
+### Clone & Setup
+```bash
+git clone https://github.com/MafengDaniel/Data-Analytics-Portfolio.git
+cd Data-Analytics-Portfolio
+pip install -r requirements.txt
+```
+
+### Open Power BI Projects
+- **Project 1:** `01_sales_margin_diagnostic/Aurelia_Sales_Diagnostic.pbix`
+- **Project 3:** `03_retention_cohort_analytics/Aurelia_Retention_Cohort.pbix`
+
+### Run Financial Model (Excel)
+- Open `02_financial_scenario_model/SaaS_Financial_Model_2024.xlsx`
+- Edit Assumptions sheet (BLUE cells); calculations update in real-time
+
+---
+
+## Professional Background
+
+**Mafeng Daniel** | Commercial Analytics & Business Intelligence Professional
+
+I specialize in translating fragmented operational and financial data into executive-grade insights. My background spans SaaS financial planning, hospitality revenue management, and enterprise sales operations.
+
+### Open to Roles:
+- **Commercial Finance / FP&A** — Financial modeling and scenario frameworks for growth companies
+- **Business Intelligence** — Scalable BI solutions and data models for enterprise stakeholders
+- **Analytics Engineering** — Data warehouses, ETL pipelines, and self-service analytics platforms
+- **Operational Analytics** — Revenue, margin, and churn analytics
+
+---
+
+## Contact & Connect
+
+- **Email:** [Mafengdaniel15@gmail.com](mailto:Mafengdaniel15@gmail.com)
+- **LinkedIn:** [linkedin.com/in/mafengdaniel](#)
+- **GitHub:** [github.com/MafengDaniel](https://github.com/MafengDaniel)
+- **Location:** Jos, Nigeria | Open to Remote & Hybrid
 
 ---
 
 ## License
 
-MIT License. See LICENSE file for details.
-
----
-
-## Contact & About
-
-**Mafeng Daniel** | Data Analyst | Open to Data Analyst, BI, and Analytics Engineering roles
-
-- Email: Mafengdaniel15@gmail.com
-- LinkedIn: [Your Profile](#)
-- GitHub: [MafengDaniel](https://github.com/MafengDaniel)
-- Location: Jos, Nigeria
-
-Always interested in discussing a challenging data problem or analytics infrastructure question.
+MIT License. See [LICENSE](LICENSE) for details.
