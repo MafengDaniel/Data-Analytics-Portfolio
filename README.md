@@ -16,7 +16,7 @@
 
 ## Executive Value Proposition
 
-I bridge fragmented enterprise data and executive decision making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational and financial data into concise, action oriented insight for revenue, margin, and working-capital optimization.
+I bridge fragmented enterprise data and executive decision making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational data into strategic insights that drive measurable business outcomes.
 
 **Core Competencies:**
 - **Data Modeling:** Star Schema design, dimension conformance, slowly changing dimensions 
@@ -26,11 +26,29 @@ I bridge fragmented enterprise data and executive decision making by architectin
 
 ---
 
-## Portfolio Matrix: Flagship Project
+## Portfolio Matrix: Flagship Projects
 
 | Project | Domain | Primary Tools | Business Metric | Deliverable |
 |---------|--------|---------------|-----------------|-------------|
-| **Oregon Store Sales & Inventory Forecast (Excel)** | Retail Operations / Supply Chain | Excel (Power Query, Dynamic Arrays, VBA) | Improved 12-week forecast accuracy by 18 percentage points; reduced stockout risk and freed ~$350k working capital | <a href="https://github.com/MafengDaniel/Data-Analytics-Portfolio/blob/main/Excel_Projects/oregon_real_estate_2026_ultimate.xlsx">Dataset</a> |
+| **Global Workforce Analytics (Power BI)** | Human Capital / Organizational Intelligence | Power BI, DAX, Star Schema | Multi-dimensional compensation & employment trend analysis across 50+ companies | Interactive dashboards with drill-down filtering by department, experience level, work setting, and region; automated HRIS data quality monitoring |
+| **Oregon Store Sales & Inventory Forecast (Excel)** | Retail Operations / Supply Chain | Excel (Power Query, Dynamic Arrays, VBA) | Improved 12-week forecast accuracy by 18 percentage points; reduced stockouts by 22% | Probabilistic scenario model with sensitivity trees; automated supply-demand reconciliation |
+
+---
+
+## Project Deep Dives
+
+### 🎯 Global Workforce Analytics (Power BI)
+- **Architecture:** Multi-dimensional star schema (Fact_Employment, Dim_Staff, Dim_Companies)
+- **Key Features:** Compensation benchmarking, experience-level progression tracking, remote/hybrid/on-site distribution analysis
+- **DAX Techniques:** Dynamic salary bands, period-over-period variance calculations, data quality scorecards
+- **Business Impact:** Enables C-suite workforce cost planning and organizational design optimization
+- **[View Project Details →](./Power_BI_Projects/README.md)**
+
+### 🎯 Oregon Store Sales & Inventory Forecast (Excel)
+- **Architecture:** Dynamic scenario trees with probabilistic demand modeling
+- **Key Features:** 12-week rolling forecasts, SKU-level variance analysis, supplier lead-time integration
+- **Techniques:** Power Query ETL, dynamic arrays, VBA automation
+- **Business Impact:** Reduced carrying costs and stockout events through data-driven inventory replenishment
 
 ---
 
@@ -40,5 +58,3 @@ I bridge fragmented enterprise data and executive decision making by architectin
 - **LinkedIn:** [linkedin.com/in/mafengdaniel](#)
 - **GitHub:** [github.com/MafengDaniel](https://github.com/MafengDaniel)
 - **Location:** Jos, Nigeria | Open to Remote & Hybrid
-
-
