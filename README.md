@@ -1,4 +1,10 @@
-<h1 align="center">Mafeng Daniel | Commercial Analytics & Business Intelligence Portfolio</h1>
+<div align="center" style="background: linear-gradient(180deg, #07090d 0%, #0d1217 30%, #0d1217 100%); border-radius: 18px; padding: 52px 24px 46px; margin: 0 auto 28px; box-shadow: inset 0 0 40px rgba(255,255,255,0.02);">
+  <div style="display: inline-block; text-align: center;">
+    <div style="font-size: clamp(3.5rem, 7vw, 9rem); font-weight: 300; letter-spacing: -0.07em; line-height: 0.9; color: #f2f3f5; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Mafeng Daniel</div>
+    <div style="width: min(460px, 72vw); height: 4px; background: linear-gradient(90deg, rgba(110,207,233,0.85), rgba(110,207,233,1), rgba(110,207,233,0.85)); border-radius: 999px; margin: 28px auto 32px;"></div>
+    <div style="font-size: clamp(1.4rem, 2.2vw, 3rem); font-weight: 300; letter-spacing: -0.04em; color: #e6e7eb; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Commercial Analytics &amp; Business Intelligence</div>
+  </div>
+</div>
 
 <p align="center">
   <strong>Data-Driven Decision Architecture | Star Schema Modeling | Advanced DAX | Financial Scenario Analysis</strong>
@@ -13,48 +19,3 @@
 </p>
 
 ---
-
-## Executive Value Proposition
-
-I bridge fragmented enterprise data and executive decision making by architecting scalable analytics solutions in **Power BI** and **advanced Excel**. My focus is relentless: convert raw operational data into strategic insights that drive measurable business outcomes.
-
-**Core Competencies:**
-- **Data Modeling:** Star Schema design, dimension conformance, slowly changing dimensions 
-- **Advanced DAX & Excel:** Time-over-time analysis, dynamic arrays, scenario trees, rolling aggregates
-- **Financial Modeling:** 3-statement integration, scenario analysis, cash flow forecasting
-- **Executive Dashboarding:** KPI governance, drill-throughs, interactive filtering
-
----
-
-## Portfolio Matrix: Flagship Projects
-
-| Project | Domain | Primary Tools | Business Metric | Deliverable |
-|---------|--------|---------------|-----------------|-------------|
-| **Global Workforce Analytics (Power BI)** | Human Capital / Organizational Intelligence | Power BI, DAX, Star Schema | Multi-dimensional compensation & employment trend analysis across 50+ companies | Interactive dashboards with drill-down filtering by department, experience level, work setting, and region; automated HRIS data quality monitoring |
-| **Oregon Store Sales & Inventory Forecast (Excel)** | Retail Operations / Supply Chain | Excel (Power Query, Dynamic Arrays, VBA) | Improved 12-week forecast accuracy by 18 percentage points; reduced stockouts by 22% | Probabilistic scenario model with sensitivity trees; automated supply-demand reconciliation |
-
----
-
-## Project Deep Dives
-
-### 🎯 Global Workforce Analytics (Power BI)
-- **Architecture:** Multi-dimensional star schema (Fact_Employment, Dim_Staff, Dim_Companies)
-- **Key Features:** Compensation benchmarking, experience-level progression tracking, remote/hybrid/on-site distribution analysis
-- **DAX Techniques:** Dynamic salary bands, period-over-period variance calculations, data quality scorecards
-- **Business Impact:** Enables C-suite workforce cost planning and organizational design optimization
-- **[View Project Details →](./Power_BI_Projects/README.md)**
-
-### 🎯 Oregon Store Sales & Inventory Forecast (Excel)
-- **Architecture:** Dynamic scenario trees with probabilistic demand modeling
-- **Key Features:** 12-week rolling forecasts, SKU-level variance analysis, supplier lead-time integration
-- **Techniques:** Power Query ETL, dynamic arrays, VBA automation
-- **Business Impact:** Reduced carrying costs and stockout events through data-driven inventory replenishment
-
----
-
-## Contact & Connect
-
-- **Email:** [Mafengdaniel15@gmail.com](mailto:Mafengdaniel15@gmail.com)
-- **LinkedIn:** [linkedin.com/in/mafengdaniel](#)
-- **GitHub:** [github.com/MafengDaniel](https://github.com/MafengDaniel)
-- **Location:** Jos, Nigeria | Open to Remote & Hybrid
