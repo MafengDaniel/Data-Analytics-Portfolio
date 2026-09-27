@@ -1,4 +1,4 @@
-# Hospital Management System – SQL Database Project
+# Hospital Management System SQL Database Project
 
 A production-grade relational database demonstrating normalized schema design, data integrity, and comprehensive SQL query patterns for a healthcare operations domain.
 
@@ -172,11 +172,11 @@ ORDER BY active_doctors DESC;
 
 ## Design Highlights
 
-✅ **Normalized Schema** – Third Normal Form (3NF) eliminates redundancy and maintains data consistency  
-✅ **Referential Integrity** – Foreign key constraints enforce entity relationships  
-✅ **Scalable Structure** – Extensible to add new dimensions (e.g., medical procedures, departments, billing codes)  
-✅ **Sample Data Quality** – Realistic healthcare data across 485+ records  
-✅ **Production Query Library** – 60+ queries covering operational, analytical, and financial reporting needs  
+✅ **Normalized Schema**  Third Normal Form (3NF) eliminates redundancy and maintains data consistency  
+✅ **Referential Integrity**  Foreign key constraints enforce entity relationships  
+✅ **Scalable Structure** Extensible to add new dimensions (e.g., medical procedures, departments, billing codes)  
+✅ **Sample Data Quality**  Realistic healthcare data across 485+ records  
+✅ **Production Query Library**  60+ queries covering operational, analytical, and financial reporting needs  
 
 ---
 
